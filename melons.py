@@ -62,3 +62,5 @@ class GovernmentMelonOrder(AbstractMelonOrder):
     def mark_inspection(self, passed):
         if passed:
             self.passed_inspection = True
+        else:
+            self.passed_inspection = False
